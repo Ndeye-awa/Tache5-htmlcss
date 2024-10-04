@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', serif;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+header{
+    background-image: url(images/arriere_plan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+
+.entete{
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.contact1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffad01;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h5{
+    font-size: 16PX;
+    font-weight: 300;
+}
+
+h6{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.adresse1{
+    display: flex;
+    gap: 10px;
+}
+
+.tel1{
+    display: flex;
+    gap: 10px;
+}
+
+.mail1{
+    display: flex;
+    gap: 5px;
+}
+
+.mail1 i{
+    margin: 15px;
+}
+
+button{
+    background-color: #ffad01;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    float: inline-end;
+    margin-top: 3% ;
+    cursor: pointer;
+}
+
+.section1{
+    width: 60%;
+    background-color: #fff;
+    margin: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+}
+
+.image1{
+    width: 60%;
+    margin-top: -70px;
+    margin-left: 20%;
+}
+
+.image1 img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+    color: #ffad01;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact2{
+    text-align: center;
+    padding: 10px;
+}
+
+span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1em;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #887392;
+}
+
+.social i{
+    margin: 10px;
+}
+
+.social:hover{
+    background-color: #ffad01;
+}
+
+.section2{
+    margin-top: 250px;
+    display: flex;
+}
+
+.barre1{
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ffad01;
+    margin-bottom: 20px;
+}
+
+.section2_1{
+margin-left: 10%;
+}
+
+.section2_1 h1{
+    color: #333;
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+.section2_1 p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.section2_2{
+    margin-left: 17%;
+    margin-top: 65px;
+}
+
+.section2_2 span{
+    color: #ffad01;
+}
+
+.section2_2 a{
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px;
+    letter-spacing: 1px;
+}
+
+.section2_2 a:hover{
+    color: #ffad01;
+}
+/* ---------------portfolio------------------- */
+.section3{
+    height: 1200px;
+}
+.section3 .imageportfolio{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 3px; 
+    margin-top: 30px;
+}
+.section3 .imageportfolio img{
+    width: 100%;
+}
+.section3 .imageportfolio .img1{
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.section3 .imageportfolio .img2{
+    background-size: cover;
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+.section3 .imageportfolio .img3{
+    background-size: cover;
+    grid-column: 5/7;
+    grid-row: 1/2;
+}
+.section3 .imageportfolio .img4{
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.section3 .imageportfolio .img5{
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.section3 .imageportfolio .img6{
+    background-size: cover;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.section3 .imageportfolio .img7{
+    background-size: cover;
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+.section3 .imageportfolio .img8{
+    background-size: cover;
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+.section3 .imageportfolio .img9{
+    background-size: cover;
+    grid-column: 5/7;
+    grid-row: 3/5;
+}
+
+/* -----------------------about me------------------------ */
+
+.section4{
+    margin: 0px;
+    display: flex;
+}
+
+.barre2{
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ffad01;
+    margin-bottom: 20px;
+}
+
+.section4_1{
+margin-left: 10%;
+}
+
+.section4_1 h1{
+    color: #333;
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+.section4_1 p{
+    color: #999;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.section4{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+  }
+
+ .sec4-2 p{
+    text-align: justify;
+    font-size: 16px;
+ }
+
+
+  .box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;  
+    
+  }
+  .box .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  .box .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  .box .percent svg circle{ 
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 5;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+  }
+  .box .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+  }
+  .box .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 97) / 100);
+    stroke:#03a9f4;
+  }
+
+  .box .percent .percent2 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+  }
+
+  .box .percent .percent2 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 78) / 100);
+    stroke:#03a9f4;
+  }
+
+  .box .percent .percent1 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #f3f3f3;
+  }
+
+  .box .percent .percent1 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 67) / 100);
+    stroke:#03a9f4;
+  }
+  .box .percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .box .percent .number p span{
+    font-size: 30px;
+  }
+
+ /* ----------------------section section5------------------------ */
+ .section5{
+    display: flex;
+    padding: 5rem 7rem;
+    gap: 200px;
+    background-color: rgb(22, 2, 41);
+}
+
+
+.barre3{
+    width: 50px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ffad01;
+    margin-bottom: 20px;
+}
+
+.section5_1{
+    margin-left: 10%;
+}
+
+.section5_1 h1{
+    color: #f5f5f5;
+    font-size: 26px;
+    font-weight: 900;
+
+}
+
+.section5_1 p{
+    color: #7a7373;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+.section5 .right .right1 h5 span{
+    color:#ffad01 ;
+}
+.section5 .right .right1{
+    margin-top: 10px ;
+    margin-bottom: 40px;
+    font-size: 1.2em;
+    padding: 10px;
+}
+.section5 .right .right1 li{
+    padding: 5px;
+    color: #f4e0e0;
+    list-style-type: circle;
+}
+.section5 .right .right1 p{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #f9dede;
+}
+.section5 .right .right1 h4{
+    color: #fff;
+}
+.section5 .right .right1 h4{
+    margin-bottom: 3px;
+}
+.section5 .right .right1 h5{
+    color: #fff;
+    margin-top: 10px;
+}
+/* --------------------------fin section section5 xperience------------- */
+/* ---------------------------section section5 experience---------------------- */
+.education{
+    display: flex;
+    margin: 5em;
+    gap: 200px;
+    position: relative;
+}
+.education .left::before{
+    content: '';
+    height: 10px;
+    width: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: block;
+    background: #ffad01;
+}
+.education h1{
+    font-size: 26px;
+}
+.education p{
+   color: #a4a1a1;
+   font-size: 14px;
+   margin-top: 10px; 
+}
+.timeline div{
+    margin-bottom: 3rem;
+}
+/* ********mis en place du timeline******** */
+.timeline::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    left:25%;
+    width: 2px;
+    background: #ccc;
+}
+.timeline .sous::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 24.5%;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 0 8px rgba(250, 164, 133, 0.3);
+    background: #ffad01;
+}
+.timeline .sous2::after{
+    content: '';
+    position: absolute;
+    top: 34%;
+    left: 24.5%;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 0 8px rgba(250, 164, 133, 0.3);
+    background: #ffad01;
+}
+.timeline .sous3::after{
+    content: '';
+    position: absolute;
+    top: 68%;
+    left: 24.5%;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 0 8px rgba(250, 164, 133, 0.3);
+    background: #ffad01;
+}
+/* *****fin du timeline******* */
+.timeline h5{
+    color:#ffad01 ;
+    margin-top: 5px;
+}
+.timeline h6{
+    margin-bottom: 30px;
+}
+.timeline p{
+    color: #898282;
+    line-height: 1.5;
+}
+/* -------------------------fin section education---------------------- */
+/* ---------------------------compteur------------------------------- */
+.compteur{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+    background: url(fumé\ orange.jpg);
+    background-size: cover;
+    color: #450202;
+    font-weight: bold;
+}
+.compteur .chiffre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.compteur .chiffre .desc{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.compteur .chiffre .nbre{
+    font-size: 60px;
+}
+/* ---------------------------footer-------------------------------- */
+.footer{
+    background-color: rgb(33, 38, 63);
+    height: 70px;
+    text-align: center;
+    padding:30px;
+    font-size: 20px;
+    color: #928181;
+}
+
+
+
+  /* _____________________________________________________________________ */
+
+@media screen and (max-width: 768px) {
+    
+  
+  /*----------- partie rondels-------------------------------- */
+  
+  .section4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  
+  
+  .sec4-2 p{
+    text-align:justify;
+    font-size: 16px;
+    margin: 30px;
+  }
+  
+  
+  .box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;  
+    
+  }
+  .box .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .box .percent svg circle{
+    width: 200px;
+    height: 200px;
+    fill: none;
+    stroke-width: 5;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+  }
+  
+}
+  
+
+   
+   
+   
+  
+  
+    
+  
